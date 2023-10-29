@@ -1,0 +1,26 @@
+{
+  // git
+  "git.enableSmartCommit": true,
+  "git.confirmSync": false,
+
+  // editor
+  "editor.tabSize": 2,
+  "editor.detectIndentation": false,
+  "editor.formatOnSave": true,
+  "editor.codeActionsOnSave": {
+    "source.fixAll.eslint": true
+  },
+
+  // javascript
+  "javascript.validate.enable": false,
+  "javascript.updateImportsOnFileMove.enabled": "always",
+
+  // typescript
+  "typescript.updateImportsOnFileMove.enabled": "always",
+
+  // eslint
+  "eslint.validate": ["javascript", "javascriptreact", "typescript", "typescriptreact"],
+
+  // vsintellicode
+  "vsintellicode.modify.editor.suggestSelection": "automaticallyOverrodeDefaultValue"
+}

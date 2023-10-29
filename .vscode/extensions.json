@@ -1,0 +1,16 @@
+{
+  "recommendations": [
+    "dbaeumer.vscode-eslint",
+    "editorconfig.editorconfig",
+    "esbenp.prettier-vscode",
+    "vincaslt.highlight-matching-tag",
+    "naumovs.color-highlight",
+    "formulahendry.auto-rename-tag",
+    "coenraads.bracket-pair-colorizer-2",
+    "dsznajder.es7-react-js-snippets",
+    "eamodio.gitlens",
+    "VisualStudioExptTeam.vscodeintellicode",
+    "jpoissonnier.vscode-styled-components",
+    "alfnielsen.vsc-scaffolding"
+  ]
+}
