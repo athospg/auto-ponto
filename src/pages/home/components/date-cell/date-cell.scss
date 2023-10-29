@@ -1,0 +1,39 @@
+.date-cell {
+  width: 100%;
+  display: flex;
+  flex-direction: column;
+  gap: 0.25rem;
+}
+
+.event-badge {
+  width: 100%;
+  border-radius: 1.25rem;
+  background-color: #1a4a82;
+  color: #ffffff;
+  padding: 0 0.5rem;
+  max-width: 100%;
+
+  &.warning {
+    background-color: #807703;
+  }
+  &.missing {
+    background-color: #a7363c;
+  }
+  &.ultra {
+    background-color: #e10814;
+  }
+}
+
+.truncated-text {
+  white-space: nowrap;
+  overflow: hidden;
+  text-overflow: ellipsis;
+  // ${({ theme }) => theme.size.globalStyle.typography.label01};
+  text-align: end;
+}
+
+.events-wrapper {
+  display: flex;
+  flex-direction: column;
+  gap: 0.25rem;
+}

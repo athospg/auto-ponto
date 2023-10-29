@@ -1,0 +1,23 @@
+.calendar-header {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: space-between;
+  gap: 0.5rem;
+
+  margin: auto;
+
+  padding: 0.5rem;
+
+  .centralized {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-between;
+    gap: 0.5rem;
+
+    margin: auto;
+
+    margin-inline: auto;
+  }
+}
